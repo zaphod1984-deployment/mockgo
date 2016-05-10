@@ -1,6 +1,8 @@
 var mockgo = require('../index')
 
 mockgo.getConnection((error, connection) => {
+    if (error) throw error
+    
     var collection = connection.collection('testDataCollection')
 
     collection.find({}).toArray((error, result) => {
