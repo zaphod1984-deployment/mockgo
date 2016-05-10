@@ -11,13 +11,13 @@
     "url": "git+https://github.com/seriousManual/mockgo.git"
   },
   "keywords": [
-    "mongodb",
-    "mongo",
-    "mock database",
-    "testing",
-    "mocking",
+    "in memory",
     "inmemory",
-    "in memory"
+    "mock database",
+    "mocking",
+    "mongo",
+    "mongodb",
+    "testing"
   ],
   "author": "Manuel Ernst <seriousstuff@gmx.de>",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "async": "^1.5.2",
     "debug": "^2.2.0",
     "mongodb": "^2.1.11",
-    "mongodb-prebuilt": "^4.6.0",
+    "mongodb-prebuilt": "^5.0.3",
     "portfinder": "^1.0.3"
   },
   "engines": {
